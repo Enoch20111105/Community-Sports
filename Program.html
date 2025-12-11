@@ -1,0 +1,619 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.2">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+    span.Apple-tab-span {white-space:pre}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span>&lt;head&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;title&gt;Community Sports&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;link type="text/css" rel="stylesheet" href="styles.css"/&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;meta charset="utf-8"/&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-converted-space">  </span>.movetoright {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>margin-left: 50px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>width: 500px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">      </span>.buttonmovetoright{</p>
+<p class="p1"><span class="Apple-converted-space">        </span>margin-left: 50px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>width:107px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p1"><span class="Apple-converted-space">      </span>.buttonmovetoright2{</p>
+<p class="p1"><span class="Apple-converted-space">        </span>margin-left: 50px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>width: 80px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p1"><span class="Apple-converted-space">      </span>.movetoright2 {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>margin-left: 50px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>width: 450px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p1"><span class="Apple-converted-space">      </span>.textwidth{</p>
+<p class="p1"><span class="Apple-converted-space">        </span>width: 900px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>margin: 0 auto;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p1"><span class="Apple-converted-space">      </span>body{</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin:0;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background-attachment: fixed;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background-size: cover;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/style&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">  </span>&lt;script&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">    </span>function map(){</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">      </span>document.body.innerHTML='&lt;button type="button" onclick="originalpage()" style="font-size:24px"&gt;Return&lt;/button&gt; &lt;iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94768.96542267292!2d118.77246970540207!3d32.027691572621976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35b58c9b668dcd83%3A0x8ffbb60b79df1b06!2sNanjing%2C%20Jiangsu%2C%20China!5e0!3m2!1sen!2sus!4v1750639370821!5m2!1sen!2sus" width="1000" height="470" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"&gt;&lt;/iframe&gt;'</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">      </span>document.body.style.background="linear-gradient(to bottom, lightblue 30%, lightgray 70%)"</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">      </span>document.body.style.height = "100vh"</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">    </span>function originalpage(){</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">      </span>div style="background: white;"&gt;&lt;button type="button" onclick="geographiclocation()" class="buttonmovetoright2" style="background:none; border:none; text-align:center"&gt;Events&lt;/button&gt; &lt;button type="button" onclick="history()" class="buttonmovetoright2" style="background:none; border:none"&gt;History&lt;/button&gt; &lt;button type="button" onclick="originalpage()" class="buttonmovetoright2" style="background:none; border:none"&gt;Home&lt;/button&gt;&lt;button type="button" onclick="video()" class="buttonmovetoright2" style="background:none; border:none"&gt;Attractions&lt;/button&gt;&lt;button type="button" onclick="food()" class="buttonmovetoright2" style="background:none; border:none"&gt;Food&lt;/button&gt;&lt;/div&gt;<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">  <span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></span>&lt;h1 class="movetoright"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  <span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>  </span>Yangshan Park Charitable Run</p>
+<p class="p1"><span class="Apple-converted-space">  <span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></span>&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  <span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></span>&lt;p class="movetoright"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  <span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>  </span>Yangshan Park Run is a positive, inclusive, comm unity event, run by the volunteers from Nanjing Int ernational School ("NIS") and local expatriate co mmunity. The entry fees are 100% donated to the community charity Pfrang Association. There are 5k and 2k runs taking place at the same time in Y angshan Park. Whether you walk, jog, run, volunte er, or spectate, you can support us in raising mon ey for the fantastic charities, whist improving your fitness and feeling part of your community.</p>
+<p class="p1"><span class="Apple-converted-space">  <span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-converted-space">  </span>&lt;button type="button" onclick="map()" class="buttonmovetoright"&gt;Map of Yangshan Park&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">    </span>function geographiclocation(){</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">      </span>document.body.innerHTML='&lt;div style="background: white;"&gt;&lt;button type="button" onclick="geographiclocation()" class="buttonmovetoright2" style="background:none; border:none"&gt;Events&lt;/button&gt; &lt;button type="button" onclick="history()" class="buttonmovetoright2" style="background:none; border:none"&gt;History&lt;/button&gt; &lt;button type="button" onclick="originalpage()" class="buttonmovetoright2" style="background:none; border:none"&gt;Home&lt;/button&gt;&lt;button type="button" onclick="video()" class="buttonmovetoright2" style="background:none; border:none"&gt;Attractions&lt;/button&gt;&lt;button type="button" onclick="food()" class="buttonmovetoright2" style="background:none; border:none"&gt;Food&lt;/button&gt;&lt;/div&gt; &lt;h1 class="movetoright"&gt;Geographic location of Nanjing&lt;/h1&gt; &lt;p class="movetoright"&gt;The 6600 square kilometer city Nanjing is located in the heart of the Yangtze River Delta, making it an important trading centre. Its geography is also characterized by Purple Mountain, which is located in the east part of Nanjing. For more information, you can click &lt;a target="_blank" href="https://www.gotonanjing.com/discover-nanjing/location-geography"&gt;here&lt;/a&gt;&lt;/p&gt;'</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">      </span>document.body.style.backgroundImage="url('PurpleMountain01.jpeg')"</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">      </span>document.body.style.backgroundAttachment="fixed";</p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.body.style.backgroundSize="cover";</p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.body.style.color="gray"</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">    </span>function history(){</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">      </span>document.body.innerHTML='&lt;div style="background: white;"&gt;&lt;button type="button" onclick="geographiclocation()" class="buttonmovetoright2" style="background:none; border:none"&gt;Geography&lt;/button&gt; &lt;button type="button" onclick="history()" class="buttonmovetoright2" style="background:none; border:none"&gt;History&lt;/button&gt; &lt;button type="button" onclick="originalpage()" class="buttonmovetoright2" style="background:none; border:none"&gt;Home&lt;/button&gt;&lt;button type="button" onclick="video()" class="buttonmovetoright2" style="background:none; border:none"&gt;Attractions&lt;/button&gt;&lt;button type="button" onclick="food()" class="buttonmovetoright2" style="background:none; border:none"&gt;Food&lt;/button&gt;&lt;/div&gt; &lt;h1 class="textwidth" style="text-align:center; margin-top: 15px; margin-bottom:15px;"&gt;History of Nanjing&lt;/h1&gt; &lt;p class="textwidth" style="text-align:justify; margin-bottom: 15px"&gt;Nanjing is one of the four ancient capitals in China, it has been as a capital for approximately 450 years in total, and has been recognized as a city for around 2500 years. The history of Nanjing could be tracked to 571 BC, which at that time, it was called Tang Yi. Later, its name has changed several times, including Yuecheng, Jinling Yi, and Jianye. In 229 AD, the Wu kingdom declared Jianye, which is Nanjing as its capital for the first time, since then, Nanjing continued to serve as the capital for five dynasties, which are the Eastern Jin dynasty, the Southern Song dynasty, the Southern Qi dynasty, the Southern Liang dynasty, and the Southern Chen dynasty. These dynasties were referred as the Six Dynasties in China history, and Nanjing has been their capital for more than 320 years. Over 1000 years since the Six Dynasties, Nanjing has been the capital for four other governments, which are the Southern Tang dynasty, the Ming dynasty, the Taiping Heavenly Kingdom and the Republic of China. For more information, you can click &lt;a target="_blank" href="https://english.nanjing.gov.cn/ThisisNanjing/WelcometoNanjing/History/202405/t20240510_4663022.html"&gt;here&lt;/a&gt;&lt;/p&gt;'</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">      </span>document.body.style.backgroundImage="url('Nanjing_history_picture.jpeg')"</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">      </span>document.body.style.backgroundAttachment="fixed";</p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.body.style.backgroundSize="cover";</p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.body.style.color="black";</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-tab-span">	</span> <span class="Apple-converted-space">  </span>function video(){</p>
+<p class="p1"><span class="Apple-tab-span">	</span> <span class="Apple-converted-space">    </span>document.body.innerHTML='&lt;div style="background: white;"&gt;&lt;button type="button" onclick="geographiclocation()" class="buttonmovetoright2" style="background:none; border:none"&gt;Geography&lt;/button&gt; &lt;button type="button" onclick="history()" class="buttonmovetoright2" style="background:none; border:none"&gt;History&lt;/button&gt; &lt;button type="button" onclick="originalpage()" class="buttonmovetoright2" style="background:none; border:none"&gt;Home&lt;/button&gt;&lt;button type="button" onclick="video()" class="buttonmovetoright2" style="background:none; border:none"&gt;Attractions&lt;/button&gt;&lt;button type="button" onclick="food()" class="buttonmovetoright2" style="background:none; border:none"&gt;Food&lt;/button&gt;&lt;/div&gt; &lt;h1 style="text-align:center"&gt;Attractions in Nanjing&lt;/h1&gt; &lt;iframe width="750" height="400" style="display:block;margin:auto;" src="https://www.youtube.com/embed/HcFx-z5ymXA?si=X0AQXqHjTBgjW36A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt; &lt;ul style="text-align:justify; width: 750px; margin:auto;"&gt; &lt;li&gt;&lt;strong&gt;Nanjing City Wall&lt;/strong&gt; is the largest and longest city wall in the whole world with a length of 25.1 kilometers. It was first built in 1366 to block invaders, and was finished after 27 years. On the wall, you can have a great view of the whole city.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Purple Mountain&lt;/strong&gt; is one of the four most famous mountains in Southern China, its highest peak can reach to about 450 meters high. It has great natural view over the whole year, making it a good place for relax and feel the beauty of nature.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Confucious Temple&lt;/strong&gt; is built in 1034 to worship Confucious, which is a great thinker and educator of China. In it, you can learn about the examination system of ancient China. &lt;/li&gt; &lt;li&gt;&lt;strong&gt;Presidential Palace&lt;/strong&gt; is where the president of China lives during the period of 1840 to 1949, and now it has turned into the biggest modern history museum of China.&lt;/li&gt; &lt;li&gt; &lt;strong&gt;Qinhuai River&lt;/strong&gt; is a branch of the Yangtze River, and it is 110 kilometers in length. When night falls, the light on the buildings around it are lit, showing the most beutiful part of Nanjing to its visitors.&lt;/li&gt; &lt;/ul&gt;'</p>
+<p class="p1"><span class="Apple-tab-span">	</span> <span class="Apple-converted-space">    </span>document.body.style.background="lightblue"</p>
+<p class="p1"><span class="Apple-tab-span">	</span> <span class="Apple-converted-space">    </span>document.body.style.color="black"</p>
+<p class="p1"><span class="Apple-tab-span">	</span> <span class="Apple-converted-space">  </span>}<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-tab-span">	</span> <span class="Apple-converted-space">  </span>function food(){</p>
+<p class="p1"><span class="Apple-tab-span">	</span> <span class="Apple-converted-space">    </span>document.body.innerHTML='&lt;div style="background: white;"&gt;&lt;button type="button" onclick="geographiclocation()" class="buttonmovetoright2" style="background:none; border:none"&gt;Geography&lt;/button&gt; &lt;button type="button" onclick="history()" class="buttonmovetoright2" style="background:none; border:none"&gt;History&lt;/button&gt; &lt;button type="button" onclick="originalpage()" class="buttonmovetoright2" style="background:none; border:none"&gt;Home&lt;/button&gt;&lt;button type="button" onclick="video()" class="buttonmovetoright2" style="background:none; border:none"&gt;Attractions&lt;/button&gt;&lt;button type="button" onclick="food()" class="buttonmovetoright2" style="background:none; border:none"&gt;Food&lt;/button&gt;&lt;/div&gt;&lt;h1 style="text-align:center"&gt;Food of Nanjing&lt;/h1&gt; &lt;div style="text-align:center"&gt;&lt;img src="Nanjing_salted_duck.png" style="width: 220px"/&gt; &lt;img src="Nanjing_roasted_duck.png" style="width: 220px"/&gt; &lt;img src="Nanjing_duck_blood_soup.png" style="width: 150px"/&gt; &lt;img src="Nanjing_sesame_pancake.png" style="width: 220px"/&gt;&lt;/div&gt;&lt;p style="text-align:justify; width: 800px; margin:auto; margin-top:20px"&gt; Nanjing is most famous for four of its dishes: salted duck, duck blood soup, Nanjing roasted duck, and sesame pancakes. Salted duck is a dish that will marinate duck with spices and salt, making the duck smell very good and taste salty. Duck blood soup is a soup mainly made by duck blood and glass noodles. The texture of duck blood joined with the texture of the glass noodles will make the soup taste extremely good. Nanjing roasted duck is a famous symbol of Nanjing, it has a crispy skin and sweet meat, loved by many people in Nanjing. Sesame pancakes are pastries enriched by duck fat, making them smell great, often used as staple food in Nanjing. For more information, you can click &lt;a target="_blank" href="https://guide.michelin.com/en/article/travel/a-taste-of-nanjing-10-essential-foods-to-try-and-places-to-see" style="color:white"&gt;here&lt;/a&gt;&lt;/p&gt;'</p>
+<p class="p1"><span class="Apple-tab-span">	</span> <span class="Apple-converted-space">    </span>document.body.style.background="black";</p>
+<p class="p1"><span class="Apple-tab-span">	</span> <span class="Apple-converted-space">    </span>document.body.style.color="white"</p>
+<p class="p1"><span class="Apple-converted-space">       </span>}</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">  </span>&lt;/script&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span>&lt;/head&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span>&lt;body&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;header class="navbar"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="logo"&gt;Nanjing Community Sports&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;nav class="nav-links"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;button type="button" onclick="originalpage()" class="nav-btn nav-btn-active"&gt;Home&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;button type="button" onclick="geographiclocation()" class="nav-btn"&gt;Calendar &amp;amp; Events&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;button type="button" onclick="food()" class="nav-btn"&gt;Contact&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/nav&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/header&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;main&gt;<span class="Apple-tab-span">	</span></p>
+<p class="p1"><span class="Apple-converted-space">  <span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></span>&lt;main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;section class="hero"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="hero-content"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;h1 class="hero-title-en"&gt;Get Active in Nanjing&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;h2 class="hero-title-cn"&gt;在南京动起来&lt;/h2&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p class="hero-text"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>Join our vibrant community of fitness enthusiasts and discover</p>
+<p class="p1"><span class="Apple-converted-space">        </span>the best sports facilities, events, and activities in Nanjing.</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p class="hero-text"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>加入我们充满活力的健身社区，探索南京最好的体育设施、活动和运动项目。</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="hero-buttons"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;button class="btn-primary" onclick="map()"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>View Events 查看活动</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;button class="btn-secondary" onclick="food()"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>Join Us 加入我们</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/section&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;section class="mission"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="mission-inner"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;h2 class="mission-title-en" style="color: black"&gt;Our Mission&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;h3 class="mission-title-cn" style="color: black"&gt;我们的使命&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p class="mission-text"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>We're dedicated to building a healthier, more active community in Nanjing by</p>
+<p class="p1"><span class="Apple-converted-space">        </span>connecting people through sports, fitness, and wellness activities.</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p class="mission-text"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>我们致力于通过体育、健身和健康活动连接人们，在南京建立一个更健康、更活跃的社区。</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/section&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;section class="values"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="values-inner"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;h2 class="values-title-en"&gt;Our Values&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;h3 class="values-title-cn"&gt;我们的核心理念&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="values-grid"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;article class="value-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="value-icon value-icon-community"&gt;🤝&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;h3 class="value-title-en"&gt;Community First&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;h4 class="value-title-cn"&gt;社区优先&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p class="value-text"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>Building lasting connections through shared passion for fitness and sports,</p>
+<p class="p1"><span class="Apple-converted-space">            </span>creating a supportive network of active individuals.</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p class="value-text"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>通过对健身和运动的共同热情建立持久的联系，创建一个相互支持的活跃个人网络。</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/article&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;article class="value-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="value-icon value-icon-health"&gt;💚&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;h3 class="value-title-en"&gt;Health &amp;amp; Wellness&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;h4 class="value-title-cn"&gt;健康与养生&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p class="value-text"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>Promoting physical and mental well-being through regular exercise, healthy</p>
+<p class="p1"><span class="Apple-converted-space">            </span>habits, and balanced lifestyle choices.</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p class="value-text"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>通过定期锻炼、健康习惯和平衡的生活方式选择，促进身心健康。</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/article&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;article class="value-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="value-icon value-icon-excellence"&gt;🏅&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;h3 class="value-title-en"&gt;Excellence&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;h4 class="value-title-cn"&gt;追求卓越&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p class="value-text"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>Encouraging personal growth and achievement through quality training,</p>
+<p class="p1"><span class="Apple-converted-space">            </span>expert guidance, and continuous improvement.</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p class="value-text"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>通过优质培训、专家指导和持续改进，鼓励个人成长和成就。</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/article&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;article class="value-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="value-icon value-icon-giving"&gt;🤲&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;h3 class="value-title-en"&gt;Giving Back&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;h4 class="value-title-cn"&gt;回馈社会&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p class="value-text"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>For larger community events, we collect a small entry fee and donate all</p>
+<p class="p1"><span class="Apple-converted-space">            </span>proceeds to local charities, showing our commitment to service over profit.</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p class="value-text"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>对于大型社区活动，我们收取少量报名费，并将所有收益捐赠给当地慈善机构，</p>
+<p class="p1"><span class="Apple-converted-space">            </span>展示我们对服务而非利润的承诺。</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/article&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/section&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;section class="city-motion"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="city-motion-inner"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="city-motion-text"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;h2 class="city-motion-title-en"&gt;Nanjing: A City in Motion&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;h3 class="city-motion-title-cn"&gt;南京：运动之城&lt;/h3&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p class="city-motion-p"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>Nanjing is a vibrant metropolis where ancient history meets modern innovation.<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>With its beautiful parks, riverside trails, our city offers endless opportunities<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>for fitness enthusiasts of all levels.</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p class="city-motion-p"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>南京是一座充满活力的⼤都市，古老历史与现代创新在这里交汇。凭借美丽的公园</p>
+<p class="p1"><span class="Apple-converted-space">        </span>和滨江步道，我们的城市为各个水平的健⾝爱好者提供⽆限机会。</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p class="city-motion-p"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>From morning tai chi sessions in Xuanwu Lake Park to evening basketball games at<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>the Olympic Sports Center, Nanjing's active community embraces a healthy lifestyle.<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>The city's commitment to public health and fitness infrastructure makes it an<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>ideal place for sports and wellness activities.</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p class="city-motion-p"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>从玄武湖公园的晨间太极到奥体中心的夜间篮球赛，南京的活跃社区拥抱健康生活方式。</p>
+<p class="p1"><span class="Apple-converted-space">        </span>这座城市对公共健康和健身基础设施的承诺使其成为体育和健康活动的理想场所。</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="city-motion-stats"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="stat-card stat-blue"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="stat-number"&gt;20+&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="stat-label"&gt;Sports Facilities&lt;br&gt;体育设施&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="stat-card stat-green"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="stat-number"&gt;10+&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="stat-label"&gt;Parks &amp; Trails &amp; Gym&lt;br&gt;公园、步道和健身房&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="city-motion-images"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;img src="e28e5182d5ea10fc7bdb153d12a770ac.jpg" class="city-img" /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;img src="basketball_image.jpg" class="city-img" /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/main&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  <span class="Apple-tab-span">	</span></span>&lt;footer&gt;</p>
+<p class="p2"><span class="Apple-converted-space">  <span class="Apple-tab-span">	</span>  </span></p>
+<p class="p1"><span class="Apple-converted-space">  <span class="Apple-tab-span">	</span></span>&lt;/footer&gt;<span class="Apple-tab-span">	</span></p>
+<p class="p1"><span class="Apple-tab-span">	</span>&lt;/body&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">  </span>.rectangle {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: white;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>width: 120%;<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>height: 5%;<span class="Apple-converted-space">       </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 20px 0; <span class="Apple-converted-space">   </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: flex; <span class="Apple-converted-space">     </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>align-items: center;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">  </span>.navbar {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: #ffffff;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 8px 16px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>justify-content: flex-start;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>box-shadow: 0 2px 8px rgba(15, 23, 42, 0.12);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>top: 0;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>z-index: 10;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>flex-wrap: wrap;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.logo {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 18px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 600;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #1d4ed8;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-right: 35px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.nav-links {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>gap: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.nav-btn {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: transparent;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border: none;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 6px 12px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 999px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 14px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #111827;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>flex-wrap: wrap;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.nav-btn:hover {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: #e5edff;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.nav-btn-active {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: #e5edff;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #2563eb;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 600;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1">.hero {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>min-height: 80vh;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>padding: 120px 40px 80px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>color: #ffffff;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>overflow: hidden;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.hero::before {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>content: "";</p>
+<p class="p1"><span class="Apple-converted-space">  </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>inset: 0;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>background-image:</p>
+<p class="p1"><span class="Apple-converted-space">    </span>linear-gradient(to right,</p>
+<p class="p1"><span class="Apple-converted-space">      </span>rgba(15,23,42,0.85),</p>
+<p class="p1"><span class="Apple-converted-space">      </span>rgba(15,23,42,0.5),</p>
+<p class="p1"><span class="Apple-converted-space">      </span>rgba(15,23,42,0.2)</p>
+<p class="p1"><span class="Apple-converted-space">    </span>),</p>
+<p class="p1"><span class="Apple-converted-space">    </span>url("Airbrush-OBJECT-REMOVER-1763520874271.jpg");</p>
+<p class="p1"><span class="Apple-converted-space">  </span>background-size: cover;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>background-position: center;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>z-index: -1;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.hero-content {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>max-width: 620px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.hero-title-en {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>font-size: 48px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>line-height: 1.1;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>font-weight: 800;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>margin: 0 0 8px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.hero-title-cn {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>font-size: 28px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>font-weight: 700;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>margin: 0 0 20px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.hero-text {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>font-size: 16px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>line-height: 1.6;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>margin-bottom: 6px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.hero-buttons {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>margin-top: 28px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>gap: 16px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>flex-wrap: wrap;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.btn-primary,</p>
+<p class="p1">.btn-secondary {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>border-radius: 999px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>padding: 12px 24px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>font-size: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>border: none;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>font-weight: 600;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>display: inline-flex;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>gap: 8px;</p>
+<p class="p1">}</p>
+<p class="p1">.btn-secondary {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>background: #ffffff;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>color: #2563eb;</p>
+<p class="p1">}</p>
+<p class="p1">.btn-secondary:hover {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>background: #e5edff;</p>
+<p class="p1">}</p>
+<p class="p1">.btn-primary {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>background: #22c55e;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>color: #ffffff;</p>
+<p class="p1">}</p>
+<p class="p1">.btn-primary:hover {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>filter: brightness(0.95);</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.mission {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>background: #ffffff;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>padding: 64px 24px 80px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>text-align: center;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.mission-inner {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>max-width: 800px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>margin: 0 auto;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.mission-title-en {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>font-size: 32px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>font-weight: 800;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>margin-bottom: 8px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.mission-title-cn {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>font-size: 22px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>font-weight: 700;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>margin-bottom: 20px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.mission-text {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>font-size: 16px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>line-height: 1.8;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>color: #4b5563;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>margin-bottom: 6px;</p>
+<p class="p1">}</p>
+<p class="p1">.values {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>background: #f9fafb;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>padding: 60px 24px 80px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.values-inner {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>max-width: 1100px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>margin: 0 auto;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.values-title-en {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>font-size: 30px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>font-weight: 800;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>margin-bottom: 4px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>color: #111827;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.values-title-cn {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>font-size: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>font-weight: 700;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>margin-bottom: 32px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>color: #374151;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.values-grid {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>display: grid;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>grid-template-columns: repeat(4, minmax(0, 1fr));</p>
+<p class="p1"><span class="Apple-converted-space">  </span>gap: 24px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">/* Individual cards */</p>
+<p class="p1">.value-card {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>background: #ffffff;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>border-radius: 24px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>padding: 24px 24px 28px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>box-shadow: 0 10px 25px rgba(15, 23, 42, 0.1);</p>
+<p class="p1"><span class="Apple-converted-space">  </span>text-align: left;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>flex-direction: column;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>gap: 8px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.value-icon {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>width: 56px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>height: 56px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>border-radius: 999px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>display: inline-flex;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>font-size: 26px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>margin-bottom: 8px;</p>
+<p class="p1">}</p>
+<p class="p1">.value-icon-community {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>background: #eff6ff;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>color: #2563eb;</p>
+<p class="p1">}</p>
+<p class="p1">.value-icon-health {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>background: #ecfdf5;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>color: #16a34a;</p>
+<p class="p1">}</p>
+<p class="p1">.value-icon-excellence {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>background: #fff7ed;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>color: #ea580c;</p>
+<p class="p1">}</p>
+<p class="p1">.value-icon-giving {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>background: #fdf2f8;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>color: #db2777;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.value-title-en {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>font-size: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>font-weight: 700;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>margin: 0;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>color: #111827;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.value-title-cn {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>font-size: 16px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>font-weight: 600;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>margin: 0 0 4px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>color: #4b5563;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.value-text {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>font-size: 14px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>line-height: 1.7;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>color: #6b7280;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>margin: 0;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">@media (max-width: 1024px) {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.values-grid {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>grid-template-columns: repeat(2, minmax(0, 1fr));</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">@media (max-width: 640px) {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.values-grid {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>grid-template-columns: 1fr;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>.values {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding: 48px 16px 64px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1">}</p>
+<p class="p1">.city-motion {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>background: #ffffff;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>padding: 80px 40px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.city-motion-inner {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>max-width: 1200px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>margin: 0 auto;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>gap: 40px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>flex-wrap: wrap;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.city-motion-text {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>flex: 1 1 480px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.city-motion-title-en {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>font-size: 36px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>font-weight: 800;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>margin-bottom: 6px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>color: #111827;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.city-motion-title-cn {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>font-size: 24px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>font-weight: 700;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>margin-bottom: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>color: #374151;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.city-motion-p {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>font-size: 16px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>line-height: 1.7;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>color: #4b5563;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>margin-bottom: 12px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.city-motion-stats {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>gap: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>margin-top: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>flex-wrap: wrap;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.stat-card {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>background: #f9fafb;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>border-radius: 16px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>padding: 20px 28px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>min-width: 180px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.stat-blue {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>border-left: 6px solid #3b82f6;</p>
+<p class="p1">}</p>
+<p class="p1">.stat-green {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>border-left: 6px solid #22c55e;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.stat-number {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>font-size: 28px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>font-weight: 800;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>color: #111827;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.stat-label {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>font-size: 14px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>color: #6b7280;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>margin-top: 4px;</p>
+<p class="p1">}</p>
+<p class="p1">.city-motion-images {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>flex: 1 1 400px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>gap: 20px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.city-img {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>max-width: 280px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>border-radius: 24px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>object-fit: cover;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>box-shadow: 0 10px 25px rgba(0,0,0,0.1);</p>
+<p class="p1">}</p>
+<p class="p1">@media (max-width: 900px) {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.city-motion-inner {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>flex-direction: column;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>.city-motion-images {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1">}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/style&gt;</p>
+</body>
+</html>
